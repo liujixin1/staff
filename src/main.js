@@ -32,10 +32,10 @@ Vue.use(Sticky);
 Vue.use(Image);
 Vue.use(Notify);
 Vue.config.productionTip = false;
-// axios.defaults.baseDns = 'http://employee.sys.admin.hihill.cn'; //测试域名
-axios.defaults.baseDns = 'http://hr.mhsys.cn'; //正式域名
-// axios.defaults.baseURL = 'http://employee.sys.api.hihill.cn/index.php/' //测试接口
-axios.defaults.baseURL = 'http://hrapi.mhsys.cn/index.php' //正式接口
+axios.defaults.baseDns = 'http://employee.sys.admin.hihill.cn'; //测试域名
+// axios.defaults.baseDns = 'http://hr.mhsys.cn'; //正式域名
+axios.defaults.baseURL = 'http://employee.sys.api.hihill.cn/index.php/' //测试接口
+    // axios.defaults.baseURL = 'http://hrapi.mhsys.cn/index.php' //正式接口
 Vue.prototype.$axios = axios;
 new Vue({
     router,
